@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>To Do List</h1>
+
+    <ul class="todo-list">
+        <li>
+            <input type="checkbox" id="groceries">
+            <label for="groceries">Groceries</label>
+            <ul class="sub-item">
+                <li>
+                    <a href="https://www.heb.com/heb-store/US/tx/cypress/fairfield-market-h-e-b-656" class="sub-item-link" target="_blank">HEB</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="bills">
+            <label for="bills">Bills</label>
+            <ul class="sub-item">
+                <li>
+                    <a href="https://www.sofi.com/" class="sub-item-link" target="_blank">SoFi Bank</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="mortgage">
+            <label for="mortgage">Mortgage</label>
+            <ul class="sub-item">
+                <li>
+                    <a href="https://amerihome.loanadministration.com/amerihome/#/login" class="sub-item-link" target="_blank">Amerihome Loans</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="energy">
+            <label for="energy">Power Company</label>
+            <ul class="sub-item">
+                <li>
+                    <a href="https://www.powertochoose.org/" class="sub-item-link" target="_blank">Choose a Power Company</a>
+                </li>
+            </ul>
+        </li>
+
+    </ul>
+
+
+</body>
+</html>
+
+
+<!--
+Build an app that is functionally similar to this example project. Try not to copy the example project, 
+give it your own personal style.
+
+In this lab, you will practice the different styles that can be applied to links when they are hovered
+ over, focused, clicked, and visited.
+
+Fulfill the user stories below and get all the tests to pass to complete the lab.
+
+User Stories:
+
+You should have one unordered list with the class todo-list.
+
+Inside the unordered list, you should have four list items.
+
+Inside each list item, there should be:
+
+An input element with the type checkbox and id set to a unique value.
+A label element with the for attribute set to the corresponding input element's id.
+An unordered list with the class sub-item.
+A list item with an anchor element in it. The anchor should have the class sub-item-link,
+ a valid href value, and a target value that makes the link open in a new tab.
+Your anchor elements shouldn't have any default text decoration.
+
+You should set the text color of the links to a color of your choice.
+
+When your links are visited, the color should change to another color of your choice.
+
+When your links are hovered over, the color should change to another color of your choice.
+
+When your links are focused, there should be a colored outline around the link.
+
+When your links are clicked, the color should change to another color of your choice.
+-->
